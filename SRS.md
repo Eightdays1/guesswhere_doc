@@ -86,7 +86,7 @@
 This Software Requirements Specification (SRS) describes all specifications for the application "GuessWhere". The first chapter deals with some general information and basic things. In the second chapter we want to give an overview of the plan and vision we have. We also have have to figure out the dependencies that might come up during the project. The third chapter delivers more details about the specific requirements in terms of functionality, usability and design parameters. This document will be updated multiple times during the project. We will add more and more information soon.
 
 ### 1.2 Scope
-The project is going to be realized as an Android App.  
+This application will be a game for Android devices. A random picture from all over the world will be shown in the app. The user has to guess where this picture was taken. After making the guess the result shows the distance between the origin location and the guessed location from the user. The goal of the game is to achieve the lowest possible distance between the origin and the guessed location. The locations are visualized with a map like Google Maps. 
 
 Planned Subsystems are: 
 * The Game:  
@@ -102,7 +102,11 @@ Once the account system is created there will be the option to mark users as fav
 There should be a leaderboard for users to compare themselves amongst each other.
 
 * Storing Data:  
-User data for accounts and possibly profiles has to be stored. Also game statistics have to be stored in order to be used for the leaderboard.
+  User data for accounts and possibly profiles has to be stored. Also game statistics have to be stored in order to be used for the leaderboard.
+
+* Multiple User Games
+
+  User can play against each other. After User 1 has guessed, the same picture will be shown to the second user. After the second user also guessed the location the results will be presented to both users. The user who guessed the location with the lowest distance wins.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 
@@ -120,10 +124,11 @@ User data for accounts and possibly profiles has to be stored. Also game statist
 
 ### 1.4 References
 
-| Title                                                                                                 | Date       |
-| ----------------------------------------------------------------------------------------------------- | ---------- |
-| [Blog](https://wordpress.com/page/guesswheregame.wordpress.com)                                       | 21/10/2020 |
-| [GitHub](https://github.com/Eightdays1/guesswhere)                                                    | 21/10/2020 |
+| Title                                                        | Date       |
+| ------------------------------------------------------------ | ---------- |
+| [Blog](https://guesswheregame.wordpress.com)                 | 14/05/2021 |
+| [GitHub Documenation](https://github.com/Eightdays1/guesswhere) | 14/05/2021 |
+| [GitHub Code](https://github.com/Eightdays1/guesswhere_doc)  | 14/05/2021 |
 
 ### 1.5 Overview
 ![OUCD](./UseCaseDiagram.png)
