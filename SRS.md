@@ -139,13 +139,13 @@ There should be a leaderboard for users to compare themselves amongst each other
 The app we want to create is a game where you are shown a picture from somewhere around the world and you have to point somewhere on the world map where you think this location is. The closer you are the more points you get. We were inspired by several other games that are similar to our idea. Most of these are either browser games or are badly implemented f.e. with lots of ads or paylocked-content. We plan to create this without those "features".
 
 ## 2.2 Product perspective
-In addition to the game, we want to implement several other features that are supposed to make the game experience even better. Those are for example a general account system, a database, a leaderboard and friendslist. 
+In addition to the game, we want to implement several other features that are supposed to make the game experience even better. Those are for example a general account system, a database, a leaderboard and friendslist and a challange other users feature.
 
 ### 2.3 User characteristics
-A user is defined by a Username, an unchangeable ID, a score and a list of ID's they're friends with. 
+The user needs a modern Android Device. We will build this app for Android Smartphone not for tablets. In order to play a game the user must create an account. This account can be created by defining a username and set a password. A user is defined by a Username, an unchangeable ID, a score and a list of ID's they're friends with. These values are stored in our database.
 
 ### 2.4 Dependencies
-Not decided yet, though we are probably going to use python for the backend.
+The main dependency is the Android version the app should support. With every major Android version Google makes some changes that might effect our code. Our goal is to support the modern Android versions (9 and 10).
 
 ## 3. Specific Requirements
 ### 3.1 Functionality
@@ -158,11 +158,11 @@ This section explains all of the functional requierements and the order in which
 3.1.6 Leaderboard
 3.1.7 Friends
 Possibly:
-3.1.8 A versus mode
+3.1.8 A versus mode (multiplayer)
 3.1.9 A chat function
 
 #### 3.1.1 The Game
-First we need to create a running app in which you can play the game we described above. This process will probably take the longest.
+First we need to create a running app in which you can play the game we described above. This process will probably take the longest. Therefore we need a use-case to start a new game. This is a crucial use-case!
 https://github.com/Eightdays1/guesswhere/blob/main/Use-Case_StartGame.md
 
 #### 3.1.2 Interface
