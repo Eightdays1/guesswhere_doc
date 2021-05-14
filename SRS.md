@@ -83,11 +83,11 @@
 ## 1. Introduction
 
 ### 1.1 Purpose
-This Software Requirements Specification (SRS) describes all specifications for the application "GuessWhere". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
+This Software Requirements Specification (SRS) describes all specifications for the application "GuessWhere". The first chapter deals with some general information and basic things. In the second chapter we want to give an overview of the plan and vision we have. We also have have to figure out the dependencies that might come up during the project. The third chapter delivers more details about the specific requirements in terms of functionality, usability and design parameters. This document will be updated multiple times during the project. We will add more and more information soon.
 
 ### 1.2 Scope
 The project is going to be realized as an Android App.  
-  
+
 Planned Subsystems are: 
 * The Game:  
 The game is the essential part of the app. Game sessions should be visualized as postings including relevant information about the session. Those should be partly standardized by a form with a free text option for specifics. The data must be stored accordingly.
@@ -267,4 +267,5 @@ To Be Determined
 To Be Determined
 
 <!-- Picture-Link definitions: -->
+
 [OUCD]: https://github.com/Eightdays1/guesswhere/blob/main/UseCaseDiagram.png "Overall Use Case Diagram"
