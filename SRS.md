@@ -162,8 +162,7 @@ Possibly:
 3.1.9 A chat function
 
 #### 3.1.1 The Game
-First we need to create a running app in which you can play the game we described above. This process will probably take the longest. Therefore we need a use-case to start a new game. This is a crucial use-case!
-https://github.com/Eightdays1/guesswhere/blob/main/Use-Case_StartGame.md
+First we need to create a running app in which you can play the game we described above. This process will probably take the longest. Therefore we need a use-case to start a new game. This is a crucial use-case! [start game use-case](https://github.com/Eightdays1/guesswhere_doc/blob/master/UseCases/Use-Case_StartGame.md)
 
 #### 3.1.2 Interface
 Once the game is running an interface needs to be created. This includes thing like buttons labeled with 'Play', 'Settings', etc.
