@@ -93,7 +93,7 @@ Planned Subsystems are:
 The game is the essential part of the app. Game sessions should be visualized as postings including relevant information about the session. Those should be partly standardized by a form with a free text option for specifics. The data must be stored accordingly.
 
 * Account System:  
-Users can create accounts to save their progress made in the game. User data must be stored alongside the posting data.
+Users can create accounts to save their progress made in the game. User data must be stored alongside the posting data. Username and password can be changed in the options-window.
 
 * Friend List:  
 Once the account system is created there will be the option to mark users as favorites.
@@ -105,7 +105,6 @@ There should be a leaderboard for users to compare themselves amongst each other
   User data for accounts and possibly profiles has to be stored. Also game statistics have to be stored in order to be used for the leaderboard.
 
 * Multiple User Games
-
   User can play against each other. After User 1 has guessed, the same picture will be shown to the second user. After the second user also guessed the location the results will be presented to both users. The user who guessed the location with the lowest distance wins.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
@@ -131,7 +130,7 @@ There should be a leaderboard for users to compare themselves amongst each other
 | [GitHub Code](https://github.com/Eightdays1/guesswhere_doc)  | 14/05/2021 |
 
 ### 1.5 Overview
-![OUCD](./UseCaseDiagram.png)
+![OUCD](./images/UseCaseDiagram.png)
 
 ## 2. Overall Description
 
@@ -162,59 +161,57 @@ Possibly:
 3.1.9 A chat function
 
 #### 3.1.1 The Game
-First we need to create a running app in which you can play the game we described above. This process will probably take the longest. Therefore we need a use-case to start a new game. This is a crucial use-case! [start game use-case](https://github.com/Eightdays1/guesswhere_doc/blob/master/UseCases/Use-Case_StartGame.md)
+First we need to create a running app in which you can play the game we described above. This process will probably take the longest. Therefore we need a use-case to start a new game. This is a crucial use-case! [Use-Case Start Game](https://github.com/Eightdays1/guesswhere_doc/blob/master/UseCases/Use-Case_StartGame.md)
+
+After starting, we also need a use-case for the actual game. The next picture shows the use-case 'Game'. [Use-Case Game](https://github.com/Eightdays1/guesswhere_doc/blob/master/UseCases/Use-Case_Game.md)
 
 #### 3.1.2 Interface
 Once the game is running an interface needs to be created. This includes thing like buttons labeled with 'Play', 'Settings', etc.
 
 #### 3.1.3 User accounts
-Next the possibility of creating accounts and saving your data will be implemented. This forms the basis for the steps 4 to 7.
+Next the possibility of creating accounts and saving your data will be implemented. This forms the basis for the steps 4 to 10.
 
 #### 3.1.4 Database
-The data collected through the user accounts needs to be stored in a central, accesible place. For this we'll connect the app to a database.
+The data collected through the user accounts needs to be stored in a central, accesible place. For this we'll connect the app to a database. The picture below shows the database-schema.
+![OUCD](https://github.com/Eightdays1/guesswhere_doc/blob/master/images/Datenbankschema.jpg)
 
-#### 3.1.5 Statistics
-Once the database is running, the user should be able to access it. This will be visible in a statistics window.
+#### 3.1.5 Options
+The user´s should be able to change there username or password in the 'Options-Window'. Future options can be implemented in the window later. [Use-Case Options](https://github.com/Eightdays1/guesswhere_doc/blob/master/UseCases/Use-Case_Options.md)
 
-#### 3.1.6 Leaderboard
+#### 3.1.6 Statistics
+Once the database is running, the user should be able to access it. This will be visible in a statistics window. [Use-Case Statistics](https://github.com/Eightdays1/guesswhere_doc/blob/master/UseCases/Use-Case_Statistics.md)
+
+#### 3.1.7 Leaderboard
 From there the database and the statistics can be accessed. With this basis we'll create a leaderboard which all users can look at.
 
-#### 3.1.7 Friends
+#### 3.1.8 Friends
 User's should be able to be friends with other players. At first this only makes it easier to look at each others stats. In chapter 3.1.8 the function of a versus mode may be added.
 
-#### 3.1.8 Versus mode
-Like in other apps (f.e. Quizduell) a versus mode shall be implemented. In ~3 rounds the players will take turns to guess their location. At the end a winner is declared.
-https://github.com/Eightdays1/guesswhere/blob/main/Use-Case_Challenge_User.md
+#### 3.1.9 Versus mode
+Like in other apps (f.e. Quizduell) a versus mode shall be implemented. In ~3 rounds the players will take turns to guess their location. At the end a winner is declared. [Use-Case Challenge User](https://github.com/Eightdays1/guesswhere/blob/main/Use-Case_Challenge_User.md)
 
-#### 3.1.9 Chat function
+#### 3.1.10 Chat function
 The least important feature is the chat function. Users should be able to communicate with each other in versus mode. If there is time left, this will be implemented as well.
 
 ### 3.2 Reliability
 To Be Determined
 
 #### 3.2.1 Availability
-To Be Determined
-
-#### 3.2.2 MTBF, MTTR
-To Be Determined
+We will not host a webservice to provide data for the game. All the data needed to play the game are already implemented in the actual android-application.
 
 #### 3.2.3 Accuracy
 To Be Determined
 
-#### 3.2.4 Bug classes
-To Be Determined
-
 ### 3.3 Performance
-To Be Determined
 
 #### 3.3.1 Response time
-To Be Determined
+We are not tied to any conditions for the response time. But in order to actually be playable, we need to provide a lagfree and fast response game experience.
 
-#### 3.3.2 Throughput
-To Be Determined
+#### 3.3.2 Storage
+The storage space is limited and usually very limited on smartphone. The storage-space needed will mostly depends of the playable maps included in the first place.
 
 #### 3.3.3 Capacity
-To Be Determined
+To Be Determined 
 
 #### 3.3.4 Resource utilization
 To Be Determined
