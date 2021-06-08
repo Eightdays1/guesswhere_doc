@@ -173,6 +173,7 @@ Next the possibility of creating accounts and saving your data will be implement
 
 #### 3.1.4 Database
 The data collected through the user accounts needs to be stored in a central, accesible place. For this we'll connect the app to a database. The picture below shows the database-schema.
+
 ![OUCD](https://github.com/Eightdays1/guesswhere_doc/blob/master/images/Datenbankschema.jpg)
 
 #### 3.1.5 Options
