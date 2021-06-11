@@ -32,53 +32,24 @@
             - [3.1.2 Interface](#312-interface)
             - [3.1.3 User accounts](#313-user-accounts)
             - [3.1.4 Database](#314-database)
-            - [3.1.5 Statistics](#315-statistics)
-            - [3.1.6 Leaderboard](#316-leaderboard)
-            - [3.1.7 Friends](#317-friends)
-            - [3.1.8 Versus mode](#318-versus-mode)
-            - [3.1.9 Chat function](#319-chat-function)
+            - [3.1.5 Options](#315-options)
+            - [3.1.6 Statistics](#316-statistics)
+            - [3.1.7 Leaderboard](#317-leaderboard)
+            - [3.1.8 Friends](#318-friends)
+            - [3.1.9 Versus mode](#319-versus-mode)
+            - [3.1.10 Chat function](#3110-chat-function)
 
         -   [3.2 Reliability](#32-reliability)
-
-            -   [3.2.1 Availability](#321-availability)
-            -   [3.2.2 MTBF, MTTR](#322-mtbf-mttr)
-            -   [3.2.3 Accuracy](#323-accuracy)
-            -   [3.2.4 Bug classes](#324-bug-classes)
 
         -   [3.3 Performance](#33-performance)
 
             -   [3.3.1 Response time](#331-response-time)
-            -   [3.3.2 Throughput](#332-throughput)
-            -   [3.3.3 Capacity](#333-capacity)
-            -   [3.3.4 Resource utilization](#334-resource-utilization)
+            -   [3.3.2 Storage](#333-storage)
 
         -   [3.4 Supportability](#34-supportability)
 
-        -   [3.5 Design Constraints](#35-design-constraints)
+        -   [3.5 Development tools](#35-development-tools)
 
-            -   [3.5.1 Development tools](#351-development-tools)
-            -   [3.5.2 Spring Boot](#352-spring-boot)
-            -   [3.5.3 ReactJS](#353-reactjs)
-            -   [3.5.4 Supported Platforms](#354-supported-platforms)
-
-        -   [3.6 Online User Documentation and Help System Requirements](#36-online-user-documentation-and-help-system-requirements)
-
-        -   [3.7 Purchased Components](#37-purchased-components)
-
-        -   [3.8 Interfaces](#38-interfaces)
-
-            -   [3.8.1 User Interfaces](#381-user-interfaces)
-            -   [3.8.2 Hardware Interfaces](#382-hardware-interfaces)
-            -   [3.8.3 Software Interfaces](#383-software-interfaces)
-            -   [3.8.4 Communications Interfaces](#384-communications-interfaces)
-
-        -   [3.9 Licensing Requirements](#39-licensing-requirements)
-
-        -   [3.10 Legal, Copyright and other Notices](#310-legal-copyright-and-other-notices)
-
-        -   [3.11 Applicable Standards](#311-applicable-standards)
-
-    -   [4. Supporting Information](#4-supporting-information)
 
 ## 1. Introduction
 
@@ -153,12 +124,13 @@ This section explains all of the functional requierements and the order in which
 3.1.2 Interface
 3.1.3 User accounts
 3.1.4 Database
-3.1.5 Statistics
-3.1.6 Leaderboard
-3.1.7 Friends
+3.1.5 Options
+3.1.6 Statistics
+3.1.7 Leaderboard
+3.1.8 Friends
 Possibly:
-3.1.8 A versus mode (multiplayer)
-3.1.9 A chat function
+3.1.9 A versus mode (multiplayer)
+3.1.10 A chat function
 
 #### 3.1.1 The Game
 First we need to create a running app in which you can play the game we described above. This process will probably take the longest. Therefore we need a use-case to start a new game. This is a crucial use-case! [Use-Case Start Game](https://github.com/Eightdays1/guesswhere_doc/blob/master/UseCases/Use-Case_StartGame.md)
@@ -174,7 +146,7 @@ Next the possibility of creating accounts and saving your data will be implement
 #### 3.1.4 Database
 The data collected through the user accounts needs to be stored in a central, accesible place. For this we'll connect the app to a database. The picture below shows the database-schema.
 
-![OUCD](https://github.com/Eightdays1/guesswhere_doc/blob/master/images/Datenbankschema.jpg)
+![Database-schema](https://github.com/Eightdays1/guesswhere_doc/blob/master/images/Datenbankschema.jpg)
 
 #### 3.1.5 Options
 The user´s should be able to change there username or password in the 'Options-Window'. Future options can be implemented in the window later. [Use-Case Options](https://github.com/Eightdays1/guesswhere_doc/blob/master/UseCases/Use-Case_Options.md)
@@ -189,19 +161,14 @@ From there the database and the statistics can be accessed. With this basis we'l
 User's should be able to be friends with other players. At first this only makes it easier to look at each others stats. In chapter 3.1.8 the function of a versus mode may be added.
 
 #### 3.1.9 Versus mode
-Like in other apps (f.e. Quizduell) a versus mode shall be implemented. In ~3 rounds the players will take turns to guess their location. At the end a winner is declared. [Use-Case Challenge User](https://github.com/Eightdays1/guesswhere/blob/main/Use-Case_Challenge_User.md)
+Like in other apps (f.e. Quizduell) a versus mode shall be implemented. In ~3 rounds the players will take turns to guess their location. At the end a winner is declared. [Use-Case Challenge User](https://github.com/Eightdays1/guesswhere_doc/blob/master/UseCases/Use-Case_Challenge_User.md)
 
 #### 3.1.10 Chat function
 The least important feature is the chat function. Users should be able to communicate with each other in versus mode. If there is time left, this will be implemented as well.
 
 ### 3.2 Reliability
-To Be Determined
 
-#### 3.2.1 Availability
-We will not host a webservice to provide data for the game. All the data needed to play the game are already implemented in the actual android-application.
-
-#### 3.2.3 Accuracy
-To Be Determined
+For the availability, we will not host a webservice to provide data for the game. All the data needed to play the game are already implemented in the actual android-application.
 
 ### 3.3 Performance
 
@@ -211,61 +178,10 @@ We are not tied to any conditions for the response time. But in order to actuall
 #### 3.3.2 Storage
 The storage space is limited and usually very limited on smartphone. The storage-space needed will mostly depends of the playable maps included in the first place.
 
-#### 3.3.3 Capacity
-To Be Determined 
-
-#### 3.3.4 Resource utilization
-To Be Determined
-
 ### 3.4 Supportability
 To Be Determined
 
-### 3.5 Design Constraints
-To Be Determined
-
-#### 3.5.1 Development tools
-To Be Determined
-
-#### 3.5.2 Spring Boot
-To Be Determined
-
-#### 3.5.3 ReactJS
-To Be Determined
-
-#### 3.5.4 Supported Platforms
-To Be Determined
-
-### 3.6 Online User Documentation and Help System Requirements
-To Be Determined
-
-### 3.7 Purchased Components
-To Be Determined
-
-### 3.8 Interfaces
-To Be Determined
-
-#### 3.8.1 User Interfaces
-To Be Determined
-
-#### 3.8.2 Hardware Interfaces
-To Be Determined
-
-#### 3.8.3 Software Interfaces
-To Be Determined
-
-#### 3.8.4 Communications Interfaces
-To Be Determined
-
-### 3.9 Licensing Requirements
-To Be Determined
-
-### 3.10 Legal, Copyright and other Notices
-To Be Determined
-
-### 3.11 Applicable Standards
-To Be Determined
-
-## 4. Supporting Information
+### 3.5 Development tools
 To Be Determined
 
 <!-- Picture-Link definitions: -->
