@@ -179,11 +179,12 @@ We are not tied to any conditions for the response time. But in order to actuall
 The storage space is limited and usually very limited on smartphone. The storage-space needed will mostly depends of the playable maps included in the first place.
 
 ### 3.4 Supportability
-To Be Determined
+The app will only be available for Android Version 10 and higher. The application needs an connection to the internet to play the game. 
 
 ### 3.5 Development tools
-To Be Determined
+* Android Studio
+* IntelliJ
+* DataGrip
+* PHPStorm
 
 <!-- Picture-Link definitions: -->
-
-[OUCD]: https://github.com/Eightdays1/guesswhere/blob/main/UseCaseDiagram.png "Overall Use Case Diagram"
