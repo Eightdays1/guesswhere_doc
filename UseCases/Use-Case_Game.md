@@ -30,4 +30,4 @@ The user must be logged in.
 (n/a)
  
 # 6 Extension Points
-(n/a)
+![Game](../images/functionpoints/functionpoints_game.png)
