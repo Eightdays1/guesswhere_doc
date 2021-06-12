@@ -27,4 +27,5 @@ The user who wants to challange another must be logged in. The other User must e
 
 # 6 Function Points
 ![Challange User FP](../images/functionpoints/functionpoints_challengeuser.png)
+
 ![FP](../images/functionpoints/complexityAdjustmentTable.PNG)
