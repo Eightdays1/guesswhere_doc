@@ -25,7 +25,7 @@ n/a
 n/a
 
 ## 4. Use-Case View 
-n/a
+![UC-Diagram](./images/UseCaseDiagram.png)
 
 ## 5. Logical View
 n/a
