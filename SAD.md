@@ -28,7 +28,7 @@ n/a
 ![UC-Diagram](./images/UseCaseDiagram.png)
 
 ## 5. Logical View
-n/a
+![UML-Diagram](./images/guesswhereapp_diagram.png)
 
 ## 6. Process View
 n/a
