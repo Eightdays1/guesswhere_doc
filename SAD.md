@@ -39,7 +39,7 @@ n/a
 n/a
 
 ## 9. Data View
-![Datenbankschema](./images/Datenbankschema.jpg)
+![Datenbankschema](./images/Datenbankschema.png)
 
 ## 10. Size and Performance
 n/a
