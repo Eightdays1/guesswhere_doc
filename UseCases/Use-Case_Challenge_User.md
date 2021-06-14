@@ -2,7 +2,7 @@
 Challenge User
 
 ## 1.1 Brief Description
-To challenge another user, you first have to know the name of the user them. After that you send click a button to send an request to them. The other user gets a popup message in his app which notifies him that someone wants to challange him. If the user accepts the challange both users will get the same picture. So both users have to guess the same. The user who guessed the lowest distance wins. After one Game the Challange is over and a new can be started.
+To challenge another user, you first have to know the name of the user them. After that you send click a button to send an request to them. The other user gets a popup message in his app which notifies him that someone wants to challenge him. If the user accepts the challenge both users will get the same picture. So both users have to guess the same. The user who guessed the lowest distance wins. After one Game the challenge is over and a new can be started.
 # 2 Flow of Events
 ## 2.1 Basic Flow
 - User clicks 'challenge' button 
@@ -22,7 +22,7 @@ To challenge another user, you first have to know the name of the user them. Aft
 - Recieving Notifications from Backend to the App must be implemented
 
 # 4 Preconditions
-The user who wants to challange another must be logged in. The other User must exists. 
+The user who wants to challenge another must be logged in. The other User must exists. 
 
 
 # 6 Function Points
