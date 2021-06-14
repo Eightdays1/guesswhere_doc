@@ -146,7 +146,7 @@ Next the possibility of creating accounts and saving your data will be implement
 #### 3.1.4 Database
 The data collected through the user accounts needs to be stored in a central, accesible place. For this we'll connect the app to a database. The picture below shows the database-schema.
 
-![Database-schema](https://github.com/Eightdays1/guesswhere_doc/blob/master/images/Datenbankschema.jpg)
+![Database-schema](https://github.com/Eightdays1/guesswhere_doc/blob/master/images/Datenbankschema.png)
 
 #### 3.1.5 Options
 The user´s should be able to change there username or password in the 'Options-Window'. Future options can be implemented in the window later. [Use-Case Options](https://github.com/Eightdays1/guesswhere_doc/blob/master/UseCases/Use-Case_Options.md)
