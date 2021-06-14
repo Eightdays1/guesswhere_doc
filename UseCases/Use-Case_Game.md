@@ -4,6 +4,9 @@ Game
 ## 1.1 Brief Description
 Play a new game with random pictures/locations.
 
+## 1.2 Screenshot
+![Game](../images/Screenshot/screenshot_game.jpg)
+
 # 2 Flow of Events
 ## 2.1 Basic Flow
 - Load random picture
@@ -14,7 +17,7 @@ Play a new game with random pictures/locations.
 - The user can choose between going back to main menu or playing another game
 
 ### 2.1.1 Activity Diagram
-![Challange User](../images/UC_Game.png)
+![Game](../images/UC_Game.png)
 
 # 3 Special Requirements
 - Database connection must work
