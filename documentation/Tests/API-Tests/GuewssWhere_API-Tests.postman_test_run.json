@@ -1,0 +1,579 @@
+{
+	"id": "003afe02-cbb7-4eb4-9c8c-793bb5dd0f89",
+	"name": "GuewssWhere_API-Tests",
+	"timestamp": "2021-06-14T13:24:58.671Z",
+	"collection_id": "37e71cc5-23ad-4376-9b6c-1406890173a6",
+	"folder_id": 0,
+	"environment_id": "171f245a-647b-434a-9a09-89bb0a7ede16",
+	"totalPass": 31,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "881bbb3d-da9e-4cf0-ab05-b886e7db340a",
+			"name": "RequestAccessToken",
+			"url": "http://api.guesswhere.net/api.php?type=requestaccesstoken",
+			"time": 157,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"DB-Status": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"DB-Status": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				157
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"DB-Status": true
+				}
+			]
+		},
+		{
+			"id": "90b02d4e-fae2-4ac6-9c14-7aff9d61e75e",
+			"name": "RequestNewGame",
+			"url": "http://api.guesswhere.net/api.php?type=requestnewgame",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"DB-Status": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"DB-Status": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				19
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"DB-Status": true
+				}
+			]
+		},
+		{
+			"id": "089545c2-a3b6-4d24-9171-4cc74d31224a",
+			"name": "SaveGame",
+			"url": "http://api.guesswhere.net/api.php?type=savegame",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"DB-Status": true,
+				"Message": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"DB-Status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				19
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"DB-Status": true,
+					"Message": true
+				}
+			]
+		},
+		{
+			"id": "62507ccf-a11b-4248-b2ba-77a2c7319b75",
+			"name": "ChangePassword",
+			"url": "http://api.guesswhere.net/api.php?type=changepassword",
+			"time": 244,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"DB-Stauts": true,
+				"Message": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"DB-Stauts": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				244
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"DB-Stauts": true,
+					"Message": true
+				}
+			]
+		},
+		{
+			"id": "d652f90f-aaa2-4835-aefb-0cfd04ee6592",
+			"name": "DeleteStatistics",
+			"url": "http://api.guesswhere.net/api.php?type=deletestats",
+			"time": 18,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"DB-Status": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"DB-Status": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				18
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"DB-Status": true
+				}
+			]
+		},
+		{
+			"id": "1e0ce361-3ce9-4d07-a9c4-4eda074b3df6",
+			"name": "GetLeaderBoard",
+			"url": "http://api.guesswhere.net/api.php?type=getleaderboard",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "af019c27-e874-4a18-828a-a7b78c7942cf",
+			"name": "GetBestPlayer",
+			"url": "http://api.guesswhere.net/api.php?type=getbestplayer",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6d94fe12-51e6-4cac-be8e-68f63d7ac52c",
+			"name": "RequestChallenge",
+			"url": "http://api.guesswhere.net/api.php?type=requestchallenge",
+			"time": 21,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"DB-Status": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"DB-Status": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				21
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"DB-Status": true
+				}
+			]
+		},
+		{
+			"id": "9a7dcace-e8cb-469d-ba58-bd2f1922c7cf",
+			"name": "SaveChallengedGameSender",
+			"url": "http://api.guesswhere.net/api.php?type=savechallengegame",
+			"time": 20,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"DB-Status": true,
+				"Message": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"DB-Status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"DB-Status": true,
+					"Message": true
+				}
+			]
+		},
+		{
+			"id": "d984fbdc-d624-4903-86d4-a1d27f037a32",
+			"name": "RequestAccessToken2",
+			"url": "http://api.guesswhere.net/api.php?type=requestaccesstoken",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"DB-Status": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"DB-Status": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"DB-Status": true
+				}
+			]
+		},
+		{
+			"id": "37f9e51d-6770-4252-8271-92dc3ed18d2f",
+			"name": "CheckForChallenge",
+			"url": "http://api.guesswhere.net/api.php?type=checkforchallenge",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"DB-Status": true,
+				"User is challenged": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"DB-Status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User is challenged": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"DB-Status": true,
+					"User is challenged": true
+				}
+			]
+		},
+		{
+			"id": "4cbdd61b-229b-4b6c-a030-09c5a64b4497",
+			"name": "PlayChallengedGame",
+			"url": "http://api.guesswhere.net/api.php?type=playchallengedgame",
+			"time": 22,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Your test name": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				22
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Your test name": true
+				}
+			]
+		},
+		{
+			"id": "269ec332-99eb-4461-925f-57549c95c985",
+			"name": "SaveChallengedGameReciever",
+			"url": "http://api.guesswhere.net/api.php?type=savechallengegame",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"DB-Status": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"DB-Status": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"DB-Status": true
+				}
+			]
+		},
+		{
+			"id": "062c9d3a-c865-43cd-84f3-865e4bfe1669",
+			"name": "ChallengeResult",
+			"url": "http://api.guesswhere.net/api.php?type=challengeresult",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7f54edfe-3e62-4a2b-be2b-05fedefa0759",
+			"name": "DeleteCahallange",
+			"url": "http://api.guesswhere.net/api.php?type=deletechallenge",
+			"time": 20,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"DB-Status": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"DB-Status": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"DB-Status": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 764,
+	"collection": {
+		"requests": [
+			{
+				"id": "881bbb3d-da9e-4cf0-ab05-b886e7db340a",
+				"method": "POST"
+			},
+			{
+				"id": "90b02d4e-fae2-4ac6-9c14-7aff9d61e75e",
+				"method": "POST"
+			},
+			{
+				"id": "089545c2-a3b6-4d24-9171-4cc74d31224a",
+				"method": "POST"
+			},
+			{
+				"id": "62507ccf-a11b-4248-b2ba-77a2c7319b75",
+				"method": "POST"
+			},
+			{
+				"id": "d652f90f-aaa2-4835-aefb-0cfd04ee6592",
+				"method": "POST"
+			},
+			{
+				"id": "1e0ce361-3ce9-4d07-a9c4-4eda074b3df6",
+				"method": "POST"
+			},
+			{
+				"id": "af019c27-e874-4a18-828a-a7b78c7942cf",
+				"method": "POST"
+			},
+			{
+				"id": "6d94fe12-51e6-4cac-be8e-68f63d7ac52c",
+				"method": "POST"
+			},
+			{
+				"id": "9a7dcace-e8cb-469d-ba58-bd2f1922c7cf",
+				"method": "POST"
+			},
+			{
+				"id": "d984fbdc-d624-4903-86d4-a1d27f037a32",
+				"method": "POST"
+			},
+			{
+				"id": "37f9e51d-6770-4252-8271-92dc3ed18d2f",
+				"method": "POST"
+			},
+			{
+				"id": "4cbdd61b-229b-4b6c-a030-09c5a64b4497",
+				"method": "POST"
+			},
+			{
+				"id": "269ec332-99eb-4461-925f-57549c95c985",
+				"method": "POST"
+			},
+			{
+				"id": "062c9d3a-c865-43cd-84f3-865e4bfe1669",
+				"method": "POST"
+			},
+			{
+				"id": "7f54edfe-3e62-4a2b-be2b-05fedefa0759",
+				"method": "POST"
+			}
+		]
+	}
+}
