@@ -23,6 +23,6 @@ Change the current password to a new one.
 The user must be logged in. An Internet Connection must exists!
  
 # 6 Extension Points
-![Game](../images/functionpoints/p.png)
+![Game](../images/functionpoints/functionpoints_changepassword.png)
 
-![FP](../images/functionpoints/p.PNG)
+![FP](../images/functionpoints/complexityAdjustmentTable.PNG)
