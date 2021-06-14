@@ -4,6 +4,9 @@ Options
 ## 1.1 Brief Description
 Lets the player change their username or password in the option-screen. The User has also the possibility to delete his account. These two options will be shown in the Options Menu.
 
+## 1.2 Screenshot
+![Options](../images/Screenshot/screenshot_options.jpg)
+
 # 2 Flow of Events
 ## 2.1 Basic Flow
 - When the userer tabs "options", show the options-screen.
@@ -14,9 +17,7 @@ Lets the player change their username or password in the option-screen. The User
 - If the new username or password is not valid, a failure-message is shown. The user can try again.
 
 ### 2.1.1 Activity Diagram
-![Challange User](../images/UC_Options.png)
-
-
+![Options](../images/UC_Options.png)
 
 # 3 Special Requirements
 - Database Connection must work
