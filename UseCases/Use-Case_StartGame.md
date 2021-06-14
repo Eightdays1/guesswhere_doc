@@ -6,6 +6,9 @@ To start the game, the user has to select a game mode and can then start playing
 
 The user must have entered a username.
 
+## 1.2 Screenshot
+![StartGame](../images/Screenshot/screenshot_playgame.jpg)
+
 # 2 Flow of Events
 ## 2.1 Basic Flow
 - User clicks in the "Play" button
