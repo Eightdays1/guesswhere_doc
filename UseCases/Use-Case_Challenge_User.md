@@ -4,6 +4,9 @@ Challenge User
 ## 1.1 Brief Description
 To challenge another user, you first have to know the name of the user them. After that you send click a button to send an request to them. The other user gets a popup message in his app which notifies him that someone wants to challenge him. If the user accepts the challenge both users will get the same picture. So both users have to guess the same. The user who guessed the lowest distance wins. After one Game the challenge is over and a new can be started.
 
+## 1.2 Screenshot
+![Challenge_User_Screenshot](../images/Screenshot/screenshot_challengeuser.jpg)
+
 # 2 Flow of Events
 ## 2.1 Basic Flow
 - User clicks 'challenge' button 
@@ -15,7 +18,7 @@ To challenge another user, you first have to know the name of the user them. Aft
 - The user with the lower distance wins the game
 
 ### 2.1.1 Activity Diagram
-![Challange User](../images/UC_ChallengeUser.png)
+![Challenge User](../images/UC_ChallengeUser.png)
 
 
 # 3 Special Requirements
@@ -27,6 +30,6 @@ The user who wants to challenge another must be logged in. The other User must e
 
 
 # 6 Function Points
-![Challange User FP](../images/functionpoints/functionpoints_challengeuser.png)
+![Challenge User FP](../images/functionpoints/functionpoints_challengeuser.png)
 
 ![FP](../images/functionpoints/complexityAdjustmentTable.PNG)
