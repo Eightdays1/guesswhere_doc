@@ -4,6 +4,9 @@ Change Password
 ## 1.1 Brief Description
 Change the current password to a new one.
 
+## 1.2 Screenshot
+![Change Password](../images/Screenshot/screenshot_changepassword.jpg)
+
 # 2 Flow of Events
 ## 2.1 Basic Flow
 - Click on the "Change Password"-Button
@@ -23,6 +26,6 @@ Change the current password to a new one.
 The user must be logged in. An Internet Connection must exists!
  
 # 6 Extension Points
-![Game](../images/functionpoints/p.png)
+![Change Password](../images/functionpoints/functionpoints_changepassword.png)
 
-![FP](../images/functionpoints/p.PNG)
+![FP](../images/functionpoints/complexityAdjustmentTable.PNG)

@@ -17,32 +17,11 @@ The scope of this SAD is to show the architecture of the GuessWhere project. Aff
 - [UC Challenge User](https://github.com/Eightdays1/guesswhere/blob/main/Use-Case_Challenge_User.md)
 - [UC Start Game](https://github.com/Eightdays1/guesswhere/blob/main/Use-Case_StartGame.md)
 
+## 2. Use-Case View 
+![UC-Diagram](./UseCases/UC-Diagram.png)
 
-## 2. Architectural Representation
-n/a
-
-## 3.Architectural Goals and Constraints 
-n/a
-
-## 4. Use-Case View 
-![UC-Diagram](./images/UseCaseDiagram.png)
-
-## 5. Logical View
+## 3. Logical View
 ![UML-Diagram](./images/guesswhereapp_diagram.png)
 
-## 6. Process View
-n/a
-
-## 7. Deployment View
-n/a
-## 8. Implementation View
-n/a
-
-## 9. Data View
+## 4. Data View
 ![Datenbankschema](./images/Datenbankschema.png)
-
-## 10. Size and Performance
-n/a
-
-## 11. Quality
-n/a

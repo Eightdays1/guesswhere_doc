@@ -101,7 +101,7 @@ There should be a leaderboard for users to compare themselves amongst each other
 | [GitHub Code](https://github.com/Eightdays1/guesswhere_doc)  | 14/05/2021 |
 
 ### 1.5 Overview
-![OUCD](./images/UseCaseDiagram.png)
+![OUCD](./UseCases/UC-Diagram.png)
 
 ## 2. Overall Description
 

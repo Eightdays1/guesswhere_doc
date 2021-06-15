@@ -2,7 +2,10 @@
 Statistics
 
 ## 1.1 Brief Description
-Displays the statisctic for the current user as well as the leaderboard.
+Displays the statisctic for the current user. The user can reset his own statistics by pressing the delete button. Statistics from chalenges between users will not be displayed here.
+
+## 1.2 Screenshot
+![Statistics](../images/Screenshot/screenshot_statistics.jpg)
 
 # 2 Flow of Events
 ## 2.1 Basic Flow
@@ -12,22 +15,17 @@ Displays the statisctic for the current user as well as the leaderboard.
 - If the User tabs "refresh", the data is pulled again from the database and the new statisctics and leaderboard are shown.
 - If the user tabs "return" the main screen is shown.
 
-### 2.1.1 Activity Diagram
-![Challange User](../images/UC_Statistics.png)
-
-
-## 2.2 Alternative Flows
-(n/a)
+### 2.2 Activity Diagram
+![Statistics](../images/UC_Statistics.png)
 
 # 3 Special Requirements
-(n/a)
+Internet connection must exist. 
 
 # 4 Preconditions
 The user must be logged in.
 The user must have played at least one game.
-
-# 5 Postconditions
-(n/a)
  
-# 6 Extension Points
-(n/a)
+# 5 Extension Points
+![Statistics](../images/functionpoints/functionpoints_statistics.png)
+
+![FP](../images/functionpoints/complexityAdjustmentTable.PNG)
