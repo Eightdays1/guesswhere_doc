@@ -25,7 +25,7 @@ n/a
 n/a
 
 ## 4. Use-Case View 
-![UC-Diagram](./images/UseCaseDiagram.png)
+![UC-Diagram](./UseCases/UC-Diagram.png)
 
 ## 5. Logical View
 ![UML-Diagram](./images/guesswhereapp_diagram.png)
