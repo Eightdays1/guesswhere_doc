@@ -27,6 +27,7 @@ The scope of this SAD is to show the architecture of the GuessWhere project. Aff
 ![Datenbankschema](./images/Datenbankschema.png)
 
 ## 5. Patterns
+We used the factory pattern. Instead of calling the constructor of a class to create an object, you call the function of a so called 'factory' which returns the asked object. This makes it easier to create different kinds of users later in developement, as you can simply build new factorys.
 ![Factory Pattern](./images/pattern.png)
 
 ## 6. Metrics
