@@ -25,3 +25,19 @@ The scope of this SAD is to show the architecture of the GuessWhere project. Aff
 
 ## 4. Data View
 ![Datenbankschema](./images/Datenbankschema.png)
+
+## 5. Patterns
+![Factory Pattern](./images/pattern.png)
+
+## 6. Metrics
+We used 3 different metrics:
+- Code quality
+- Cyclomatic Complexity
+- Code Duplication
+
+## 7. MVC
+For our general architecture we orientated ourselves on the MVC model. This states that there are 3 parts in the project:
+- Model: Stores the Data (independant from View and Controller)
+- View: What the user sees and interacts with
+- Controller: Evaluates Data from Model and View, functions as bridge between the two
+![MVC Model](./images/mvc.png)
